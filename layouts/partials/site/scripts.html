@@ -1,0 +1,41 @@
+
+
+<!-- Jquery 3.3.1 -->
+{{ $s := resources.Get "js/jquery-3.3.1.min.js" }}
+<script src="{{ $s.Permalink }}"></script>
+
+<!-- Popper -->
+{{ $s := resources.Get "js/popper.min.js" }}
+<script src="{{ $s.Permalink }}"></script>
+
+<!-- BootStrap -->
+{{ $s := resources.Get "js/bootstrap.min.js" }}
+<script src="{{ $s.Permalink }}"></script>
+
+<!-- MDB  -->
+{{ $s := resources.Get "js/mdb.476.min.js" }}
+<script src="{{ $s.Permalink }}"></script>
+
+<!-- jQuery Bootstrap Validation -->
+{{ $s := resources.Get "js/jqBootstrapValidation.js" | minify }}
+<script src="{{ $s.Permalink }}"></script>
+
+<!-- Contact Form Validation -->
+{{ $s := resources.Get "js/contactform.js" | minify }}
+<script src="{{ $s.Permalink }}"></script>
+
+<!-- from the assets folder -->
+{{ $s := resources.Get "js/app.js" | minify }}
+<script src="{{ $s.Permalink }}"></script>
+
+{{ if .Params.gallery }}
+<script>
+    // MDB Lightbox Init
+    $(function () {
+        $("#mdb-lightbox-ui").load("/mdb-addons/mdb-lightbox-ui.html");
+    });
+</script>
+
+{{ end }}
+
+<!-- <script type="text/javascript" src="/js/stripez.js"></script> -->

@@ -1,0 +1,75 @@
+[Address]
+# file = "footer.html"
+other = "Dirección"
+# english = "Address"
+# gtrans = "Dirección"
+
+[Admission_Process]
+# file = "admission.html"
+other = "Proceso de admision"
+# english = "Admission Process"
+# gtrans = "Proceso de admision"
+
+[Copyright]
+# file = "footer.html"
+other = "Copyright"
+# english = "Copyright"
+# gtrans = "Copyright"
+
+["Follow Us"]
+# file = "footer.html"
+other = "Síguenos"
+# english = "Follow Us"
+# gtrans = "Síguenos"
+
+[Follow_Us]
+# file = "footer.html"
+other = "Síguenos"
+# english = "Follow Us"
+# gtrans = "Síguenos"
+
+[Links]
+# file = "footer.html"
+other = "Enlaces"
+# english = "Links"
+# gtrans = "Campo de golf"
+
+[Next]
+# file = "carousel-homepage.html"
+other = "Siguiente"
+# english = "Next"
+# gtrans = "Siguiente"
+
+[Previous]
+# file = "carousel-homepage.html"
+other = "Anterior"
+# english = "Previous"
+# gtrans = "Anterior"
+
+["Waldorf School"]
+# file = "accordion-homepage.html"
+other = "Escuela Waldorf"
+# english = "Waldorf School"
+# gtrans = "Escuela Waldorf"
+
+[Waldorf_School_Photo_Gallery]
+# file = "carousel-homepage.html"
+other = "Galería de fotos de la escuela Waldorf"
+# english = "Waldorf School Photo Gallery"
+# gtrans = "Galería de fotos de la escuela Waldorf"
+
+[escuela_waldorf]
+# file = "carousel-homepage.html"
+other = "escuela waldorf"
+# english = "escuela waldorf"
+# gtrans = "escuela waldorf"
+
+[history_of_waldorf]
+other = "La Historia del Colegio Waldorf"
+# english = "history of waldorf"
+# gtrans = "historia de waldorf"
+
+[test]
+other = "Examen"
+# english = "test"
+# gtrans = "prueba"

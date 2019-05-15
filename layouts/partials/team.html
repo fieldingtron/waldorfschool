@@ -1,0 +1,31 @@
+{{ if (isset .Params "team_members")}}
+<!-- Section: Team v.2 -->
+<section class="team-section text-center my-5">
+
+    <!-- Section heading -->
+    <h2 class="h1-responsive font-weight-bold my-5">{{.Params.team_title}}</h2>
+    <!-- Section description -->
+    <p class="grey-text w-responsive mx-auto mb-5">{{.Params.team_intro_text}}</p> 
+    <!-- Grid row -->
+    <div class="row text-center">
+    {{  range  .Params.team_members  }}
+      {{ $name := .name }}
+      <!-- Grid column -->
+        <div class="col-md-4 mb-md-0 mb-5">
+          <div class="avatar mx-auto">
+            {{ with .image }}
+              <img src="{{$.Site.Params.cloudinary_url }}/w_200,h_200,c_thumb,g_face/{{.}}" class="rounded z-depth-1-half" alt="{{$name}}">
+            {{ else }} 
+              <img src="/img/unidog.png" class="rounded z-depth-1-half" alt="Sample avatar">
+            {{ end}}   
+          </div>
+          <h4 class="font-weight-bold dark-grey-text my-4">{{.name}}</h4>
+          <h6 class="text-uppercase grey-text mb-3"><strong>{{.title}}</strong></h6>
+        </div>
+      <!-- Grid column -->            
+    {{end}}
+</div>
+<!-- Grid row -->
+</section>
+<!-- Section: Team v.2 -->  
+{{ end }}

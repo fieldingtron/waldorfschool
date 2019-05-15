@@ -1,0 +1,60 @@
+---
+label: Homepage
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+  hidden: false
+- type: datetime
+  name: date
+  label: date
+  hidden: true
+- type: textarea
+  name: introtext
+  label: introtext
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: gallery
+- type: field_group_list
+  name: summary_items
+  label: summary_items
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: text
+    label: text
+  - type: text
+    name: picture
+    label: picture
+- type: text
+  name: facebookurl
+  label: facebookurl
+- type: text
+  name: instagramurl
+  label: instagramurl
+- name: footer_address
+  type: text
+  config:
+    required: false
+  label: footer_address
+- name: footer_email
+  type: text
+  config:
+    required: false
+  label: footer_email
+- name: footer_phone
+  type: text
+  config:
+    required: false
+  label: footer_phone
+- name: footer_text
+  type: text
+  config:
+    required: false
+  label: footer text
+pages:
+- content/spanish/_index.md

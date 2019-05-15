@@ -1,0 +1,101 @@
+<!-- Footer -->
+<footer class="page-footer font-small mdb-color lighten-3 pt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+
+          <!-- Content -->
+          <h5 class="font-weight-bold text-uppercase mb-4">{{ .Site.Title }}</h5>
+          <p>{{ with .Site.GetPage "/_index.md" }}{{.Params.footer_text}} {{ end }}</p>
+           
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mb-4">{{T "Links"}}</h5>
+
+          <ul class="list-unstyled">
+            {{ range first 5 .Site.RegularPages}}
+            <li><a href="{{.Permalink}}">{{ .Title }}</a></li> 
+            {{ end }}
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+          <!-- Contact details -->
+          <h5 class="font-weight-bold text-uppercase mb-4">{{T "Address"}}</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <p>
+                <i class="fas fa-home mr-3"></i> {{ with .Site.GetPage "/_index.md" }}{{.Params.footer_address}} {{ end }}</p>
+            </li>
+            <li>
+              <p>
+                <i class="fas fa-envelope mr-3"></i> {{ with .Site.GetPage "/_index.md" }}{{.Params.footer_email}} {{ end }}</p>
+            </li>
+            <li>
+              <p>
+                <i class="fas fa-phone mr-3"></i> + {{ with .Site.GetPage "/_index.md" }}{{.Params.footer_phone}} {{ end }}</p>
+            </li>
+            
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+
+          <!-- Social buttons -->
+          <h5 class="font-weight-bold text-uppercase mb-4">{{T "Follow_Us"}}</h5>
+
+          <!-- Facebook -->
+          <a type="button" class="btn-floating btn-fb" href='{{ with .Site.GetPage "/_index.md" }}{{.Params.facebookurl}} {{ end }}' target=_blank>
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <!-- Instagram -->
+          <a type="button" class="btn-floating btn-ins" href='{{ with .Site.GetPage "/_index.md" }}{{.Params.instagramurl}} {{ end }}' target=_blank>
+            <i class="fab fa-instagram"></i>
+          </a>
+        
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+ 
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3"> &copy; {{ now.Format "2006" }} &middot; {{T "Copyright"}} - 
+      <a href="{{ .Site.BaseURL }}"> {{ .Site.Title }}</a>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+<!-- Footer -->

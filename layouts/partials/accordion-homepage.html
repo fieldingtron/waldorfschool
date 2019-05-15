@@ -1,0 +1,45 @@
+<!--Accordion wrapper-->
+<div class="accordion md-accordion accordion-1" id="accordionEx23" role="tablist">
+
+{{ $count := 0}}
+{{ range  .Params.summary_items}}   
+  <div class="card">
+    <div class="card-header blue lighten-3 z-depth-1" role="tab" id="heading{{$count}}">
+      <h5 class="text-uppercase mb-0 py-1">
+        <a class="white-text font-weight-bold" data-toggle="collapse" href="#collapse{{$count}}" aria-expanded="true"
+          aria-controls='collapse{{$count}}'>
+
+          {{.title}}
+        </a>
+      </h5>
+    </div>
+    <div id="collapse{{$count}}" class="collapse" role="tabpanel" aria-labelledby="heading{{$count}}" data-parent="#accordionEx23">
+      <div class="card-body">
+        <div class="row my-4">
+          <div class="col-md-8">
+            <h2 class="font-weight-bold mb-3 black-text"> {{.title}}</h2>
+            <p class=""> {{.text}}</p>
+            <!-- <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur.</p> -->
+          </div>
+          <div class="col-md-4 mt-3 pt-2">
+            <div class="view z-depth-1">
+                {{ with.image }}
+                <img src="{{ $.Site.Params.cloudinary_url }}/w_510,h_225,c_fill/{{.}}"
+                  class="img-fluid" alt='{{T "Waldorf School"}}' />
+                {{else}}
+                <img src="https://mdbootstrap.com/img/Photos/Others/nature.jpeg" alt=" {{.title}}" class="img-fluid">
+
+                {{end}}
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{{$count = (add $count  1) }}
+{{ end}}
+
+</div>
+<!--Accordion wrapper-->

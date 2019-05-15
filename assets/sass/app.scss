@@ -1,0 +1,28 @@
+$body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+robotbody {
+    font-family: $body-font;
+}
+
+.googleCalendar{
+    position: relative;
+    height: 0;
+    width: 100%;
+    padding-bottom: 70%;
+  }
+  
+  .googleCalendar iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+main {
+  //background-color: grey;
+}
+.container {
+  //background-color: white;
+}
+ 

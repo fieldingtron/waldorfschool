@@ -1,0 +1,55 @@
+{{ if (isset .Params "timeline_items")}}
+<h2 class="h1-responsive font-weight-bold text-center my-5"> {{.Params.timeline_title}} </h2>  
+  <!-- Timeline -->
+  <div class="row">
+    <div class="col-md-12">
+      <div class="timeline-main">
+        <!-- Timeline Wrapper -->
+        <ul class="stepper stepper-vertical timeline timeline-simple timeline-images pl-0">
+        {{$count := 1}}
+        {{  range sort .Params.timeline_items "year" "desc"  }}
+
+          {{ if modBool $count 2 }}
+          <li class="timeline-inverted">
+          {{ else }}
+          <li>
+          {{ end }}
+
+          <!--Section Title -->
+          <a href="#!">
+            <span class="circle cyan lighten-1">{{$count}}</span>
+          </a>
+
+            <!-- Section Description -->
+              {{ if modBool $count 2 }}
+              <div class="step-content mr-xl-3 p-0 hoverable">
+              {{ else }}
+              <div class="step-content ml-3 p-0 hoverable">
+              {{ end }}  
+                {{ with.year_image }}
+                <img src="{{ $.Site.Params.cloudinary_url }}/w_510,h_225,c_fill/{{.}}"
+                  class="img-fluid" alt="Timeline Image" />
+              {{else}}
+                <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(135).jpg"
+                class="img-fluid" alt="Timeline image" />
+              {{ end }} 
+              <h4 class="font-weight-bold p-4 mb-0">{{.title}}</h4>
+              <p class="text-muted px-4 mb-0">
+                <i class="far fa-clock" aria-hidden="true"></i> {{.year}}
+              </p>
+              <p class="mb-0 p-4">
+                  {{.description_of_year}}
+              </p>
+            </div>
+          </li>
+
+          
+            {{ $count  = (add $count  1) }}
+
+        {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Timeline -->
+{{ end }}

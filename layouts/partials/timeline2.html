@@ -1,0 +1,58 @@
+
+
+{{ if (isset .Params "timeline_items")}}
+<h2 class="h1-responsive font-weight-bold text-center my-5"> {{.Params.timeline_title}} </h2>  
+  <!-- Timeline -->
+  <div class="row">
+    <div class="col-md-12">
+      <div class="timeline-main">
+
+          <!-- Timeline Wrapper -->
+      <ul class="stepper stepper-vertical timeline timeline-basic pl-0">
+        {{$count := 1}}
+        {{  range  .Params.timeline_items   }}
+
+          {{ if modBool $count 2 }}
+          <li class="timeline-inverted">
+          {{ else }}
+          <li>
+          {{ end }}
+
+          <!--Section Title -->
+          <a href="#!">
+            <span class="circle grey  font-weight-bold"> {{$count}} </span>
+          </a>
+
+            <!-- Section Description -->
+              {{ if modBool $count 2 }}
+              <div class="step-content z-depth-1 mr-xl-3 p-3 hoverable">
+              {{ else }}
+              <div class="step-content z-depth-1 ml-3 p-3 hoverable">
+              {{ end }}  
+                 
+              <h4 class="font-weight-bold  mb-0 p-2">{{.title}}</h4>
+               <p class="mb-3 p-2 ">
+                  {{.description}}
+              </p>
+<p>
+    <ul>
+        {{  range  .files   }}
+        <!-- remove file version -->
+        <li> <a href="{{ $.Site.Params.cloudinary_url }}/{{.}}" target="_blank">{{ . | replaceRE "/.+/" "" }} </a></li>
+        {{ end}}
+    </ul>
+</p>
+      
+               
+            </div>
+          </li>
+          
+            {{ $count  = (add $count  1) }}
+
+        {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Timeline -->
+{{ end }}

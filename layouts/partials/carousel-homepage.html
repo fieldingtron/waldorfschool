@@ -1,0 +1,51 @@
+<!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    {{ $count := 0}}
+    {{ range  .Params.gallery}}
+    {{ if eq $count 0}}
+    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+    {{else}}
+    <li data-target="#carousel-example-2" data-slide-to="{{$count}}"></li>
+    {{end}}
+    {{$count = (add $count  1) }}
+    {{ end }}
+  </ol>
+  <!--/.Indicators-->
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    {{ $count := 0}}
+    {{ range  .Params.gallery}}
+      {{ if eq $count 0}}
+        <div class="carousel-item active h-100">
+      {{else}}
+        <div class="carousel-item h-100">
+      {{end}}
+
+      {{$count = (add $count  1) }}
+        <div class="view">
+          <img class="d-block w-100" src="{{ $.Site.Params.cloudinary_url }}/c_fill,g_faces,h_300,w_700{{.}}"
+            alt='{{T "Waldorf_School_Photo_Gallery"}}'>
+          <!-- <div class="mask rgba-black-light"></div> -->
+        </div>
+        <!-- <div class="carousel-caption">
+              <h3 class="h3-responsive">Light mask</h3>
+              <p>First text</p>
+            </div> -->
+      </div>
+      {{end}}
+      </div>
+      <!--/.Slides-->
+      <!--Controls-->
+      <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">{{T "Previous"}}</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">{{T "Next"}}</span>
+      </a>
+      <!--/.Controls-->
+    </div>
+    <!--/.Carousel Wrapper-->

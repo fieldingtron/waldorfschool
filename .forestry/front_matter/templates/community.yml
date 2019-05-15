@@ -1,0 +1,140 @@
+---
+label: Community
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+  hidden: true
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+- type: boolean
+  name: timeline
+  label: timeline
+  hidden: true
+- name: timeline_title
+  type: text
+  config:
+    required: false
+  label: timeline title
+  description: 'Example: History of our School'
+- name: timeline_items
+  type: field_group_list
+  fields:
+  - name: year
+    type: text
+    config:
+      required: false
+    label: year
+    description: just the year here
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+    description: A few words describing the year
+    default: ''
+  - name: description_of_year
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description of year
+  - name: year_image
+    type: file
+    config:
+      maxSize: 250
+    label: year image
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Timeline Items
+- name: team_title
+  type: text
+  config:
+    required: false
+  label: team title
+  description: The title of the team section as in "Our Amazing Team"
+- name: team_intro_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: team intro text
+  description: paragraph introducing our team
+- name: team_members
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: name
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: image
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: team members
+- name: testimonials
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: name
+  - name: title
+    type: text
+    config:
+      required: true
+    label: title
+    description: 'Example: Father of Juanito Pedro Diego Primero Basico'
+  - name: testimonial_text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: testimonial text
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: image
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: testimonials
+- name: testimonials_title
+  type: text
+  config:
+    required: false
+  label: testimonials title
+  description: 'Example: Testimonials'
+pages:
+- content/spanish/communidad.md

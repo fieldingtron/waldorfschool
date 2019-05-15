@@ -1,0 +1,16 @@
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="/css/mdb.476.min.css" rel="stylesheet">
+<!-- Your custom styles (optional)
+<link href="/css/style.css" rel="stylesheet"> -->
+
+{{ $s := resources.Get "sass/app.scss" | toCSS | postCSS (dict "config" "postcss.config.js") | minify }}
+
+<link rel="stylesheet" href="{{ $s.Permalink }}" />
+
+{{ if .Params.timeline }}
+<link href="/css/addons-pro/timeline.min.css" rel="stylesheet">
+{{ end }}
