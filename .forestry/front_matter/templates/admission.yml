@@ -37,11 +37,6 @@ fields:
     type: image_gallery
     config: {}
     label: files
-  - name: file1
-    type: file
-    config:
-      maxSize: 250
-    label: file1
   config:
     min: 
     max: 
