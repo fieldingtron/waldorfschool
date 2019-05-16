@@ -27,9 +27,11 @@ fields:
   - type: textarea
     name: text
     label: text
-  - type: text
-    name: picture
-    label: picture
+  - name: picture
+    type: file
+    config:
+      maxSize: 250
+    label: 'Picture / Imagen '
 - type: text
   name: facebookurl
   label: facebookurl
