@@ -17,7 +17,7 @@ summary_items:
   text: Lorem ipsum dolor sit amet, Waldorf consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.
 - title: Como Trabajamos
-  picture: ''
+  picture: "/v1557667632/csm_Pucon1_4ee76a9328.jpg"
   text: Lorem ipsum dolor sit amet, Waldorf consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.
 footer_text: Lorem ipsum dolor sit amet, Waldorf consectetur adipiscing elit, sed
