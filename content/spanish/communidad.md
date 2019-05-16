@@ -4,27 +4,27 @@ date: 2019-03-17T18:18:43.000+00:00
 layout: communidad
 timeline: true
 timeline_items:
-- year: 2010
+- year: "2010"
   description_of_year: Se construye el kinder Pellin Aye al lado de kínder Colibrí
     y se traslada el grupo de Loncotraro a ese lugar, teniendo por primera vez a todos
     los niños pequeñitos de kinder en el mismo lugar.
-  year_image: ''
+  year_image: "/v1557667615/40440349_1898161020268625_7692882777805633071_n.jpg"
   title: Todos los kinder juntos!
-- year: 2009
+- year: "2009"
   description_of_year: La básica se traslada a Ramón Quezada 0480. Una casita frente
     a la playa grande de Pucón, cercana al kínder que nos acogió por muchos años,
     en donde fuimos paulatinamente construyendo más y más salas para ir albergando
     a los niños y niñas que se iban sumando.
   year_image: ''
   title: 2009 Title Here
-- year: 2008
+- year: "2008"
   description_of_year: |-
     Comenzamos primero básico en una casita en Loncotraro, sector ubicado entre Villarrica y Pucón, la profesora de primero básico era Manuela Hurtado y en ese mismo lugar se abre el segundo grupo de Kinder a cargo de Pia Bustos. Viktoria Luchetti continúa en kínder Colibrí frente a la playa de Pucón.
 
     Ese mismo año, nos constituimos como Organización funcional (Centro Cultural Infantil Waldorf Pucon)
   year_image: "/v1557412897/_MG_6825_zn0t8q.jpg"
   title: Primero Basico en Loncotraro
-- year: 2006
+- year: "2006"
   description_of_year: " Abrimos las puertas de kinder Colibrí a 8 niños, en una casita
     ubicada frente al Lago Villarrica en Pucón. Al poco pasar del año se sumaron más
     niños llegando a 12. Fue la primera experiencia de una iniciativa Waldorf en el
