@@ -4,7 +4,7 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title of Page
   hidden: false
 - type: datetime
   name: date
