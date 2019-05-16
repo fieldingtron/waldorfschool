@@ -42,6 +42,24 @@ team_members:
   title: Kinder PELLIN AYE
   image: "/v1557412834/logoo_arbol_letra_arriba_chico_CON_TILDE_t65aqg.jpg"
 testimonials:
+- name: Alejandra Aceituno
+  title: Ex Maestra y apoderada Waldorf Pucón
+  testimonial_text: |
+    Mi experiencia laboral y como mamá fue muy positiva. Crecí como ser humano frente a la adversidad y superé grandes fantasmas y temores.
+
+    Tuve la grata experiencia de hacer camino al andar.
+
+    Para mis hijos (Aníbal, Analía y Millaray) la experiencia del encuentro humano fue un enorme alimento de vida.
+
+    En todos nosotros brilla una llama de esperanza, encendida al calor de las fiestas, dónde el volcán y las estrellas fueron nuestros testigos.
+
+    Somos sur y llevamos en nosotros cientos de recuerdos magníficos.
+
+    Hoy gracias a esos aprendizajes, nos estamos reconstruyendo en nuevos paisajes y desafíos.
+
+    Saludos
+    Leka
+  image: ''
 - name: Pamela Yolito
   title: madre de Atila Bozzolo, egresado de 8° básico 2018
   image: ''
