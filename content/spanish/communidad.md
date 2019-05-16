@@ -57,9 +57,16 @@ testimonials:
     querido por los otros!!!!! \nNos quisieron llenar de miedos por el tipo de educación….
     Me siento orgullosa de no haber caído en el intento, ahora que puedo mirar atrás…
     estoy aun mas convencida, que fue lo mejor que pude haber hecho por mi hijo!!\nGracias!!!!\n"
-- name: Senor Campos
-  title: papa de un nino primero basico
-  testimonial_text: Esta pasando chancho o sea super mi hijo en el colegio
+- name: Viktoria Luchetti
+  title: Fundadora Waldorf Pucón
+  testimonial_text: |
+    As Pia y I began with the first waldorf kindergarten,I never dreamt our little seed would grow so fast into the school from today.
+    I loved the time with all the children in my work and I feel very fortunate to have had the possibility to see them grow into now beautiful jung adults.
+    I think the school has still the possibility to grow and to keep forming a strong community .
+    I wish from all my heart that our team of teacher stay committed to grow personally, to keep deepening the continuos study of waldorf education  and to be beautiful examples for our children.
+    Specially now in our time of the growing crisis and the danger of global warming ... we need to continue to seed and nuttier conscious communities with the willingness and courage to change what needs to be change .
+    Con mucho amor
+    Viktoria Luchetti
   image: ''
 team_title: Nuesto Equipo Bakan
 team_intro_text: Estamos muy orgulloso presentar nuestro equipo de Colegio aqui.
