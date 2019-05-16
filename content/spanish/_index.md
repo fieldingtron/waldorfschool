@@ -1,5 +1,5 @@
 ---
-title: Waldorfs school
+title: Escuela Waldorf Pucon
 date: 2019-03-17T18:18:43.000+00:00
 introtext: Lorem ipsum dolor sit amet, Waldorf consectetur adipiscing elit, sed do
   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -20,14 +20,13 @@ summary_items:
   picture: ''
   text: Lorem ipsum dolor sit amet, Waldorf consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.
-footer_text:     Lorem ipsum dolor sit amet, Waldorf consectetur adipiscing elit, sed do
-  eiusmod tempor incididunt ut labore et dolore magna aliqua 
+footer_text: Lorem ipsum dolor sit amet, Waldorf consectetur adipiscing elit, sed
+  do eiusmod tempor incididunt ut labore et dolore magna aliqua
 facebookurl: https://www.facebook.com/waldorfpucon/
 instagramurl: https://www.instagram.com/waldorfpucon/
 footer_address: Los Riscos, Pucon, Chile
 footer_email: info@waldorfpucon.org
 footer_phone: 56 9 7232 3243
-
 gallery:
 - "/v1557667615/aaaaaaaaaaaaaaaaaaaaa1.jpg"
 - "/v1557667615/40440349_1898161020268625_7692882777805633071_n.jpg"
