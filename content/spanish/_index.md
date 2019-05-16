@@ -1,5 +1,5 @@
 ---
-title: Escuela Waldorf Pucon  Página Principal
+title: Escuela Waldorf Pucon Página Principal
 date: 2019-03-17T18:18:43.000+00:00
 introtext: Lorem ipsum dolor sit amet, Waldorf consectetur adipiscing elit, sed do
   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
