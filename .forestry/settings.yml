@@ -15,9 +15,9 @@ sections:
   create: none
   match: "**/*"
 upload_dir: ''
-public_path: "/uploads"
+public_path: https://res.cloudinary.com/dz6jcn6n7/image/upload
 front_matter_path: ''
-use_front_matter_path: 
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_command: hugo -E -F -D -b $DEPLOY_URL -d public
