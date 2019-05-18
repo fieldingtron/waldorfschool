@@ -1,0 +1,20 @@
+---
+label: News
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+- name: news_intro
+  type: text
+  config:
+    required: false
+  label: news_intro
+  description: intro paragraph for the news page
