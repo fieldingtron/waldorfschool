@@ -16,6 +16,12 @@ other = "Copyright"
 # english = "Copyright"
 # gtrans = "Copyright"
 
+[Date]
+# file = "blogpost.html"
+other = "Fecha"
+# english = "Date"
+# gtrans = "Fecha"
+
 ["Follow Us"]
 # file = "footer.html"
 other = "Síguenos"
@@ -45,6 +51,18 @@ other = "Siguiente"
 other = "Anterior"
 # english = "Previous"
 # gtrans = "Anterior"
+
+["Read more"]
+# file = "blogpost.html"
+other = "Lee mas"
+# english = "Read more"
+# gtrans = "Lee mas"
+
+["Recent News"]
+# file = "blogpost.html"
+other = "Noticias recientes"
+# english = "Recent News"
+# gtrans = "Noticias recientes"
 
 ["Waldorf School"]
 # file = "accordion-homepage.html"
