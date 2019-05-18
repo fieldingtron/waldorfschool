@@ -17,7 +17,7 @@
       
             <!-- Featured image -->
             <div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4">
-              <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/49.jpg" alt="{{.Title}}">
+              <img class="img-fluid" src="{{ $.Site.Params.cloudinary_url }}/c_fill,g_faces,h_400,w_600{{ .Params.image}}" alt="{{.Title}}">
               <a>
                 <div class="mask rgba-white-slight"></div>
               </a>
@@ -34,9 +34,9 @@
             <!-- Excerpt -->
             <p class="dark-grey-text">{{.Summary}}</p>
             <!-- Post data -->
-            <p> <a class="font-weight-bold">{{T "Date"}}:</a> {{.Date}}</p>
+            <p> <a class="font-weight-bold">{{T "Date"}}:</a>  {{ dateFormat ( or $.Site.Params.dateFormat " Jan 02, 2006" ) .Date }}    </p>
             <!-- Read more button -->
-            <a class="btn btn-primary btn-md">{{T "Read more"}}</a>
+            <a class="btn btn-primary btn-md" a href="{{.Permalink}}">{{T "Read more"}}</a>
       
           </div>
           <!-- Grid column -->

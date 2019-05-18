@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="container mt-5 pt-4">
+
+    <article>
+        <h1>{{ .Title }}</h1>
+        <p> <a class="font-weight-bold">{{T "Date"}}:</a>  {{ dateFormat ( or $.Site.Params.dateFormat " Jan 02, 2006" ) .Date }}    </p>
+        <div class="clearfix py-2">
+            <img class="img-fluid float-left pr-3" src="{{ $.Site.Params.cloudinary_url }}/c_fill,g_faces,h_400,w_600{{ .Params.image}}" alt="{{.Title}}">
+            {{ .Content }}
+          </div>
+     
+    </article>
+</div>
+{{ end }}
