@@ -7,7 +7,7 @@
         <p class="text-center dark-grey-text w-responsive mx-auto mb-5">{{.Params.news_intro}}</p>
       
       
-      {{ range where .Site.RegularPages "Section" "in" (slice "bulletins") }}
+      {{ range where .Site.RegularPages "Section" "in" (slice "news") }}
 
         <!-- Grid row -->
         <div class="row">
