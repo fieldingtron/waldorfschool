@@ -11,3 +11,10 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
+- name: news_intro
+  type: text
+  config:
+    required: false
+  label: news_intro
+  description: intro paragraph for the news page
