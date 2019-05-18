@@ -6,6 +6,11 @@ sortlist:
 - http://cnn.com
 - 'news item '
 news_intro: ''
+bulletins:
+- date: 2019-04-01T03:00:00+00:00
+  link: wsj.com
+- date: 2019-05-01T04:00:00+00:00
+  link: cnn.com
 
 ---
 testing 1234
