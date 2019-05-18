@@ -9,7 +9,7 @@ sections:
 - type: directory
   path: content/spanish
   label: Content
-  create: none
+  create: documents
   match: "*"
   exclude: bulletins
 - type: directory
