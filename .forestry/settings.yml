@@ -16,6 +16,7 @@ sections:
   label: Noticias
   create: documents
   match: "**/*"
+  exclude: _index.md
   templates:
   - news-item
 - type: heading
