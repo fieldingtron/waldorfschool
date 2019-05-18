@@ -26,5 +26,27 @@ fields:
     min: 
     max: 
   label: sortlist
+- name: bulletins
+  type: field_group_list
+  fields:
+  - name: date
+    type: datetime
+    label: date
+    description: ''
+    config:
+      required: false
+      date_format: 
+      time_format: 
+      display_utc: false
+  - name: link
+    type: text
+    config:
+      required: false
+    label: link
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: bulletins
 pages:
 - content/spanish/noticias.md
