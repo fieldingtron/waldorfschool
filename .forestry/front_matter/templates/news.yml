@@ -26,3 +26,5 @@ fields:
     min: 
     max: 
   label: sortlist
+pages:
+- content/spanish/noticias.md
