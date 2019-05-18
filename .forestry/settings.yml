@@ -16,6 +16,8 @@ sections:
   label: Noticias
   create: documents
   match: "**/*"
+  templates:
+  - news-item
 - type: heading
   label: English
 - type: directory
