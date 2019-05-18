@@ -10,7 +10,7 @@ sections:
   path: content/spanish
   label: Content
   create: none
-  match: "**/*"
+  match: "*"
 - type: directory
   path: content/spanish/news
   label: Noticias
