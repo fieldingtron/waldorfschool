@@ -8,7 +8,7 @@ sections:
   label: Espanol
 - type: directory
   path: content/spanish
-  label: Content (Main Pages)
+  label: Content
   create: none
   match: "**/*"
 - type: directory
@@ -20,7 +20,7 @@ sections:
   label: English
 - type: directory
   path: content/english
-  label: Content (Main Pages)
+  label: Content
   create: none
   match: "**/*"
 upload_dir: ''
