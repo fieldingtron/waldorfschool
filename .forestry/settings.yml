@@ -4,14 +4,23 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: directory
-  path: content/english
-  label: English
-  create: all
-  match: "**/*"
+- type: heading
+  label: Espanol
 - type: directory
   path: content/spanish
-  label: Spanish
+  label: Content (Main Pages)
+  create: none
+  match: "**/*"
+- type: directory
+  path: content/spanish/news
+  label: Noticias
+  create: documents
+  match: "**/*"
+- type: heading
+  label: English
+- type: directory
+  path: content/english
+  label: Content (Main Pages)
   create: none
   match: "**/*"
 upload_dir: ''
