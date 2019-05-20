@@ -19,10 +19,15 @@ robotbody {
     height: 100%;
   }
 
-main {
-  //background-color: grey;
+main .container{
+  background-color: white;
+  overflow: hidden;
 }
-.container {
-  //background-color: white;
+body {
+  background-color: lightgray;
+}
+
+.pcolor {
+  background-color: #00695c !important;
 }
  

@@ -1,22 +1,16 @@
 {{ define "main" }}
 <div class="container mt-5">
-    <!--Grid row-->
-    <div class="row py-5">
-        <!--Grid column-->
-        <div class="col-md-12 text-center">
-            {{ partial "carousel-homepage.html" . }}
-            <div class="my-3">
-                <p>
-                    {{.Params.introtext}}
-                </p>
-            </div>
-            <div class="my-5">
-                {{ partial "accordion-homepage.html" . }}
-            </div>
-            <!-- {{ with .Site.GetPage "/_index.md" }}{{.Params.facebookurl}} {{ end }} -->
-        </div>
-        <!--Grid column-->
+   
+    {{ partial "carousel-homepage.html" . }}
+    <div class="my-4">
+        <p>
+            {{.Params.introtext}}
+        </p>
     </div>
-    <!--Grid row-->
+    <div class="my-5 text-center">
+        {{ partial "accordion-homepage.html" . }}
+    </div>
+    <!-- {{ with .Site.GetPage "/_index.md" }}{{.Params.facebookurl}} {{ end }} -->
 </div>
+   
 {{ end }}
