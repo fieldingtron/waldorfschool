@@ -59,7 +59,7 @@ testimonials:
 
     Saludos
     Leka
-  image: ''
+  image: "/v1558548776/leka.jpg"
 - name: Pamela Yolito
   title: madre de Atila Bozzolo, egresado de 8° básico 2018
   image: ''
