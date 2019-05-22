@@ -42,6 +42,26 @@ team_members:
   title: Kinder PELLIN AYE
   image: "/v1557412834/logoo_arbol_letra_arriba_chico_CON_TILDE_t65aqg.jpg"
 testimonials:
+- name: Melanie Heine
+  title: madre de Selva y Estrella, expaoderada Waldorf Pucón
+  testimonial_text: "En un pequeño y aislado lugar al sur del mundo, donde canta el
+    agua y ruge un volcán, se encuentra nuestro Waldorf Pucón.\n\nAquí, en estas hermosas
+    y poderosas tierras, he tenido la posibilidad de ver crecer a mis hijas. Y también
+    de ver crecer desde la semilla esta iniciativa,  que comenzó con la gran voluntad
+    de una madre, y luego de un par de familias que nos unimos y en conjunto soñábamos
+    con crear un bello espacio para nuestros hijos. Recuerdo las largas conversaciones,
+    los encuentros y desencuentros, el armar y desarmar, las risas y los llantos,
+    la música y los cantos que nos llenaban de valor y a los niños que veíamos disfrutar
+    contentos cada amanecer. \nLos árboles abuelos han sido testigos del largo caminar,
+    del transcurso natural por la luz y la sombra que hemos recorrido, que son tan
+    necesarios para ver y sentir el brillo de verdad. \nAgradezco que mis hijas guarden
+    como un tesoro el colegio en su corazón, agradezco que anhelen y tengan la voluntad
+    de aprender, agradezco cada abrazo, cada mirada que con cariño las contuvo, agradezco
+    cada aprendizaje y cada encuentro.\n\nQue la luz ilumine cada día más a nuestro
+    Waldorf Pucón, que tiene como origen el genuino y puro deseo de dar desde el corazón
+    con amor... una educación hacia la libertad.\nEn el recuerdo del origen, la fuerza
+    espiritual.\n \nMelanie, Carlos, Selva y Estrella \n\n\n"
+  image: ''
 - name: Alejandra Aceituno
   title: Ex Maestra y apoderada Waldorf Pucón
   testimonial_text: |
