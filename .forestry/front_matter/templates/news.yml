@@ -19,13 +19,6 @@ fields:
     required: false
   label: news_intro
   description: intro paragraph for the news page
-- name: sortlist
-  type: list
-  config:
-    use_select: false
-    min: 
-    max: 
-  label: sortlist
 - name: bulletins
   type: field_group_list
   fields:
