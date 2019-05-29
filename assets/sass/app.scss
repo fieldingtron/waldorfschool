@@ -1,5 +1,6 @@
 $body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
+$pcolor : #00695c;
 robotbody {
     font-family: $body-font;
 }
@@ -22,12 +23,20 @@ robotbody {
 main .container{
   background-color: white;
   overflow: hidden;
+  padding-top: 80px;
 }
 body {
   background-color: lightgray;
+  font-size: 1.1em;
 }
 
 .pcolor {
-  background-color: #00695c !important;
+  background-color: $pcolor !important;
 }
+
+.timeline-main .stepper.stepper-vertical.timeline.timeline-images li a .circle {
+  font-size: 1rem; }
+
+.timeline-main .stepper.stepper-vertical.timeline.timeline-images li:not(:last-child):after {
+  background-color:$pcolor; }
  

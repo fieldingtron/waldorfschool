@@ -15,20 +15,11 @@
 
     <h2 class="h1-responsive font-weight-bold text-center my-5">Bolletines</h2>  
 
-
- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia eius molestias placeat error suscipit, vero qui nihil doloremque ea eligendi non debitis aliquid aspernatur repellendus quam eaque temporibus voluptates fugiat beatae. Cumque magnam nihil, magni ut consectetur hic? Expedita.
-
- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia eius molestias placeat error suscipit, vero qui nihil doloremque ea eligendi non debitis aliquid aspernatur repellendus quam eaque temporibus voluptates fugiat beatae. Cumque magnam nihil, magni ut consectetur hic? Expedita.
- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia eius molestias placeat error suscipit, vero qui nihil doloremque ea eligendi non debitis aliquid aspernatur repellendus quam eaque temporibus voluptates fugiat beatae. Cumque magnam nihil, magni ut consectetur hic? Expedita.
- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia eius molestias placeat error suscipit, vero qui nihil doloremque ea eligendi non debitis aliquid aspernatur repellendus quam eaque temporibus voluptates fugiat beatae. Cumque magnam nihil, magni ut consectetur hic? Expedita.
- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia eius molestias placeat error suscipit, vero qui nihil doloremque ea eligendi non debitis aliquid aspernatur repellendus quam eaque temporibus voluptates fugiat beatae. Cumque magnam nihil, magni ut consectetur hic? Expedita.
- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia eius molestias placeat error suscipit, vero qui nihil doloremque ea eligendi non debitis aliquid aspernatur repellendus quam eaque temporibus voluptates fugiat beatae. Cumque magnam nihil, magni ut consectetur hic? Expedita.
-
- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia eius molestias placeat error suscipit, vero qui nihil doloremque ea eligendi non debitis aliquid aspernatur repellendus quam eaque temporibus voluptates fugiat beatae. Cumque magnam nihil, magni ut consectetur hic? Expedita.
-
- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia eius molestias placeat error suscipit, vero qui nihil doloremque ea eligendi non debitis aliquid aspernatur repellendus quam eaque temporibus voluptates fugiat beatae. Cumque magnam nihil, magni ut consectetur hic? Expedita.
-
- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia eius molestias placeat error suscipit, vero qui nihil doloremque ea eligendi non debitis aliquid aspernatur repellendus quam eaque temporibus voluptates fugiat beatae. Cumque magnam nihil, magni ut consectetur hic? Expedita.
+    <ul>
+    {{ range .Params.bulletins}}
+         <li> {{ dateFormat ( or $.Site.Params.dateFormat " Jan 02, 2006" ) .date }} - <a href="{{.link}}" target="_blank">{{.link}}</a> </li>
+    {{ end }}
+</ul>
 
 </div>
 {{ end }}
