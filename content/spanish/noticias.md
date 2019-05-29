@@ -2,8 +2,7 @@
 title: Noticias
 date: 2019-03-17T18:18:43.000+00:00
 layout: noticias
-sortlist:
-- http://cnn.com
+sortlist: []
 news_intro: ''
 bulletins:
 - date: 2019-05-08T04:00:00+00:00
