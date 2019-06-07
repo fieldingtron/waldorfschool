@@ -7,6 +7,11 @@ sections:
 - type: heading
   label: Espanol
 - type: directory
+  path: content/spanish
+  label: Contenido Sitio
+  create: none
+  match: "**/*"
+- type: directory
   path: content/spanish/news
   label: Noticias
   create: documents
