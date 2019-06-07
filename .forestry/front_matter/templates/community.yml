@@ -136,3 +136,5 @@ fields:
     required: false
   label: testimonials title
   description: 'Example: Testimonials'
+pages:
+- content/spanish/communidad.md
