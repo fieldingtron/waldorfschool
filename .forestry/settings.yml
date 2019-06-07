@@ -11,6 +11,7 @@ sections:
   label: Contenido Sitio
   create: none
   match: "**/*"
+  exclude: news
 - type: directory
   path: content/spanish/news
   label: Noticias
