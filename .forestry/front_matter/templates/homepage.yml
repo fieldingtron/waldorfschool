@@ -58,5 +58,3 @@ fields:
   config:
     required: false
   label: footer text
-pages:
-- content/spanish/_index.md

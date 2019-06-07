@@ -7,12 +7,6 @@ sections:
 - type: heading
   label: Espanol
 - type: directory
-  path: content/spanish
-  label: Content
-  create: documents
-  match: "*"
-  exclude: bulletins
-- type: directory
   path: content/spanish/news
   label: Noticias
   create: documents
