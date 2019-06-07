@@ -41,3 +41,5 @@ fields:
     max: 
     labelField: 
   label: bulletins
+pages:
+- content/spanish/noticias.md
