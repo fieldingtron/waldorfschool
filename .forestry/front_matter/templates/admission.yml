@@ -43,3 +43,5 @@ fields:
     max: 
     labelField: 
   label: timeline_items
+pages:
+- content/spanish/admission.md
