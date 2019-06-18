@@ -16,13 +16,13 @@ timeline_items:
     Comenzamos primero básico en una casita en Loncotraro, sector ubicado entre Villarrica y Pucón, la profesora de primero básico era Manuela Hurtado y en ese mismo lugar se abre el segundo grupo de Kinder a cargo de Pia Bustos. Viktoria Luchetti continúa en kínder Colibrí frente a la playa de Pucón.
     Ese mismo año, nos constituimos como Organización funcional (Centro Cultural Infantil Waldorf Pucon)
   year_image: "/v1560879885/P8200120-449.jpg"
-  title: Primero Basico en Loncotraro
+  title: 2008 Primero Basico en Loncotraro
 - year: "2009"
   description_of_year: La básica se traslada a Ramón Quezada 0480. Una casita frente
     a la playa grande de Pucón, cercana al kínder que nos acogió por muchos años,
     en donde fuimos paulatinamente construyendo más y más salas para ir albergando
     a los niños y niñas que se iban sumando.
-  year_image: ''
+  year_image: "/v1560879927/IMG_0599_2-444.jpg"
   title: 2009 Title Here
 - year: "2010"
   description_of_year: Se construye el kinder Pellin Aye al lado de kínder Colibrí
