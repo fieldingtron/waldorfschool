@@ -50,6 +50,14 @@ timeline_items:
     En junio de este mismo año, fallece la maestra de primero básico Tamara Maureira quien tiene un accidente en automóvil en el río Trancura de Pucón, este hecho fue muy sobrecogedor para la comunidad y reafirmó nuestros lazos fraternales.
   year_image: "/v1560880364/IMG_5398-230.jpg"
   title: In memorian Tamara Maureira
+- year: "2015"
+  description_of_year: 'Se traslada toda la básica del colegio a Los Riscos, solo
+    quedan abajo los kinder, que ahora son 3 grupos, el tercero de ellos en la casita
+    de Ramón Quezada. Somos recibidos por una bella erupción volcánica en Marzo, a
+    pocos días de haber llegado. A finales de este año egresa la primera generación
+    de jóvenes Waldorf Pucón de octavo básico. '
+  year_image: "/v1560880457/condor%20voluntarios-672.jpg"
+  title: Bienvenidos a Los Riscos
 team_members:
 - name: Don Anonimo
   title: Hombre Misterioso
