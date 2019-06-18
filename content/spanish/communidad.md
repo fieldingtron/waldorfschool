@@ -30,6 +30,13 @@ timeline_items:
     los niños pequeñitos de kinder en el mismo lugar.
   year_image: "/v1560879977/P1280915-180.jpg"
   title: Todos los kinder juntos!
+- year: "2011"
+  description_of_year: "Se compra el terreno de Los Riscos y se comienza a soñar con
+    la arquitectura del colegio. Se establece por primera vez una oficina administrativa
+    que funciona en la casa de Pia Bustos ubicada al lado de kínder Colibrí y Pellín
+    Aye.\n\n"
+  year_image: "/v1560880164/IMG_4785-634.jpg"
+  title: Compra de terreno en Los Riscos
 team_members:
 - name: Don Anonimo
   title: Hombre Misterioso
