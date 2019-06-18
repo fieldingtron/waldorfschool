@@ -49,7 +49,7 @@ timeline_items:
     Ampliamos la legalidad constituyéndonos como Asociación Educativa Waldorf Pucon, corporación sin fines de lucro.
     En junio de este mismo año, fallece la maestra de primero básico Tamara Maureira quien tiene un accidente en automóvil en el río Trancura de Pucón, este hecho fue muy sobrecogedor para la comunidad y reafirmó nuestros lazos fraternales.
   year_image: "/v1560880364/IMG_5398-230.jpg"
-  title: In memorian Tamara
+  title: In memorian Tamara Maureira
 team_members:
 - name: Don Anonimo
   title: Hombre Misterioso
