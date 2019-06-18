@@ -30,9 +30,7 @@ timeline_items:
     y padre del postulante, donde se evalúa aspectos relevantes de la familia para
     admisión. Además sugerimos traer informes de otros colegios, que puedan sernos
     útiles para complementar la información del niño.
-  files:
-  - "/v1557931074/Valores2019.pdf"
-  - "/v1557931006/Valores%202019.pdf"
+  files: []
   file1: ''
 
 ---
