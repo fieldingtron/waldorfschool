@@ -12,11 +12,11 @@ timeline_items:
   - "/v1560875461/INFORMATIVO%20PARA%20FAMILIAS.pdf"
   file1: ''
 - title: Segundo Paso
-  description: Las familias llenan FICHA DE POSTULACIÓN (adjunta, separar en básica
-    y kinder) con todos los datos solicitados y la envían al correo admision@waldorfpucon.org
+  description: Las familias llenan FICHA DE POSTULACIÓN con todos los datos solicitados
+    y la envían al correo admision@waldorfpucon.org
   files:
-  - "/v1557931006/Valores%202019.pdf"
-  - "/v1557931074/Valores2019.pdf"
+  - "/v1560875728/FICHA%20DE%20POSTULACION%20B%C3%81SICA.pdf"
+  - "/v1560875751/FICHA%20DE%20POSTULACION%20NI%C3%91OS%20%28AS%29%20KINDER.pdf"
   file1: "/v1557931074/Valores2019.pdf"
 - title: Tercer Paso
   description: Se coordina una ENTREVISTA PEDAGÓGICA con el maestro, junto a la madre
