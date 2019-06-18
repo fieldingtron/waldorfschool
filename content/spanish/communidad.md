@@ -58,6 +58,11 @@ timeline_items:
     de jóvenes Waldorf Pucón de octavo básico. '
   year_image: "/v1560880457/condor%20voluntarios-672.jpg"
   title: Bienvenidos a Los Riscos
+- year: "2017"
+  title: Más kinders!
+  description_of_year: 'Se construyen dos kinder más en Los Riscos y se tienen ahora
+    4 grupos de kinder, 2 en la playa y 2 en Los Riscos. '
+  year_image: ''
 team_members:
 - name: Don Anonimo
   title: Hombre Misterioso
