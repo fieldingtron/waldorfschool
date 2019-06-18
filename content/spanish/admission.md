@@ -1,5 +1,5 @@
 ---
-title: Admission
+title: Admisión
 date: 2019-03-17T18:18:43.000+00:00
 layout: admission
 timeline: true
