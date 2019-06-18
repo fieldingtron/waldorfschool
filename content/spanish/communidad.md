@@ -63,6 +63,11 @@ timeline_items:
   description_of_year: 'Se construyen dos kinder más en Los Riscos y se tienen ahora
     4 grupos de kinder, 2 en la playa y 2 en Los Riscos. '
   year_image: ''
+- year: "2019"
+  title: Primer Seminario Pedagógico
+  description_of_year: Se desarrolla el primer Seminario pedagógico Waldorf de 3 años
+    de duración en el cual nuestro colegio es patrocinador.
+  year_image: "/v1560880612/seminario%20pucon%20info.pdf"
 team_members:
 - name: Don Anonimo
   title: Hombre Misterioso
