@@ -6,12 +6,10 @@ timeline: true
 timeline_items:
 - title: Primer Paso
   description: Las familias leen el documento INFORMATIVO PARA FAMILIAS (adjunto)
-    familias para que conozcan el funcionamiento de nuestro colegio. Importante señalar
-    que aprueban el contenido, que están informados de los valores del colegio y si
-    desean continuar en el proceso de admisión.
+    con el sentido de que conozcan el funcionamiento de nuestro colegio y algunos
+    fundamentos de la pedagogía waldorf.
   files:
-  - "/uploads/Valores2019.pdf"
-  - "/v1557931074/Valores2019.pdf"
+  - "/v1560875461/INFORMATIVO%20PARA%20FAMILIAS.pdf"
   file1: ''
 - title: Segundo Paso
   description: Las familias llenan FICHA DE POSTULACIÓN (adjunta, separar en básica
@@ -38,4 +36,6 @@ timeline_items:
   file1: ''
 
 ---
-Admission empieza en Junio aqui estamos
+El proceso de admisión 2020 comienza en Julio de 2019.
+
+Si tienes dudas, contáctanos al correo electrónico admision@waldorfpucon.org
