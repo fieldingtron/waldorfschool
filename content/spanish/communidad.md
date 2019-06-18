@@ -37,6 +37,13 @@ timeline_items:
     Aye.\n\n"
   year_image: "/v1560880164/IMG_4785-634.jpg"
   title: Compra de terreno en Los Riscos
+- year: "2013"
+  title: En la casa de Pia
+  description_of_year: Nos falta espacio para todos los cursos de básica en la casita
+    de Ramón Quezada y se comienza a usar la casa de Pia Bustos para los niños de
+    la básica grande. Mientras, se comienza a construir el colegio en Los Riscos a
+    través de mingas donde participan familias y maestros del colegio.
+  year_image: ''
 team_members:
 - name: Don Anonimo
   title: Hombre Misterioso
