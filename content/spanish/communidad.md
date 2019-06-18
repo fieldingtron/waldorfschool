@@ -28,7 +28,7 @@ timeline_items:
   description_of_year: Se construye el kinder Pellin Aye al lado de kínder Colibrí
     y se traslada el grupo de Loncotraro a ese lugar, teniendo por primera vez a todos
     los niños pequeñitos de kinder en el mismo lugar.
-  year_image: "/v1557667615/40440349_1898161020268625_7692882777805633071_n.jpg"
+  year_image: "/v1560879977/P1280915-180.jpg"
   title: Todos los kinder juntos!
 team_members:
 - name: Don Anonimo
