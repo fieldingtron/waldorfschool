@@ -1,50 +1,36 @@
+DefaultContentLanguage = "es"
 baseURL = ""
+disableAliases = true
+enableRobotsTXT = true
 languageCode = "es"
 title = "Waldorf Pucon"
-
-enableRobotsTXT = true
-disableAliases = true
-
-DefaultContentLanguage = "es"
-[languages]
-  [languages.es]
-    languageName = "Espanol"
-    title = "Escuela Waldorf"
-    weight = 1
-    contentDir = "content/spanish"
-    [languages.es.params]
-      linkedin = "https://linkedin.com/whoever"
-  [languages.en]
-    languageName = "Espanol"
-    title = "Waldorf School"
-    weight = 2
-    contentDir = "content/english"
-
-[params]
-disallow_search_engines = false # set robots.txt to disallow everything
-cloudinary_url = "https://res.cloudinary.com/dz6jcn6n7/image/upload"
-
-
-# add redirects/headers
-[outputs]
-home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
-
-# remove .{ext} from text/netlify
+[languages.en]
+contentDir = "content/english"
+languageName = "Espanol"
+title = "Waldorf School"
+weight = 2
+[languages.es]
+contentDir = "content/spanish"
+languageName = "Espanol"
+title = "Escuela Waldorf"
+weight = 1
+[languages.es.params]
+linkedin = "https://linkedin.com/whoever"
 [mediaTypes."text/netlify"]
-suffixes = [""]
 delimiter = ""
-
-# add output format for netlify _redirects
-[outputFormats.REDIRECTS]
-mediatype = "text/netlify"
-baseName = "_redirects"
-isPlainText = true
-notAlternative = true
-
-# add output format for netlify _headers
+suffixes = [""]
 [outputFormats.HEADERS]
-mediatype = "text/netlify"
 baseName = "_headers"
 isPlainText = true
+mediatype = "text/netlify"
 notAlternative = true
-
+[outputFormats.REDIRECTS]
+baseName = "_redirects"
+isPlainText = true
+mediatype = "text/netlify"
+notAlternative = true
+[outputs]
+home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
+[params]
+cloudinary_url = "https://res.cloudinary.com/dz6jcn6n7/image/upload"
+disallow_search_engines = false
